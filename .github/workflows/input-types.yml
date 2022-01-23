@@ -22,6 +22,11 @@ on:
       environment:
         type: environment
         description: I am a type environment!
+        options:
+          - dev
+          - qa
+          - stage
+          - prod
         required: true
 
 jobs:
