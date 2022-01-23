@@ -5,7 +5,7 @@ on:
     inputs:
       name:
         type: choice
-        description: Who to greet
+        description: Where to go?
         options:
           - london
           - berlin
@@ -17,7 +17,7 @@ on:
         required: true
       use-emoji:
         type: boolean
-        description: Include 🎉🤣 emojis
+        description: Include 🎉🤣 emojis?
         required: true
 
 jobs:
