@@ -19,10 +19,10 @@ on:
         type: boolean
         description: Include 🎉🤣 emojis
         required: true
-      environment:
-        type: environment
-        description: I am a type environment!
-        required: false
+      # environment:
+      #   type: environment
+      #   description: I am a type environment!
+      #   required: false
 
 jobs:
   greet:
