@@ -5,7 +5,7 @@ on:
     inputs:
       name:
         type: choice
-        description: Where to go?
+        description: (Dropdown) Where to go?
         options:
           - london
           - berlin
@@ -13,11 +13,11 @@ on:
           - someehere eles
         required: true
       message:
-        description: What is your message?
+        description: (String) What is your message?
         required: true
       use-emoji:
         type: boolean
-        description: Include 🎉🤣 emojis?
+        description: (Boolean) Include 🎉🤣 emojis?
         required: true
 
 jobs:
