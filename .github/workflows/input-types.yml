@@ -7,8 +7,8 @@ on:
         type: choice
         description: Who to greet
         options:
-          - monalisa
-          - cschleiden
+          - london
+          - berlin
           - budapest
           - someehere eles
         required: true
