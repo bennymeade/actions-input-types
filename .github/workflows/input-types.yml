@@ -10,7 +10,7 @@ on:
           - london
           - berlin
           - budapest
-          - someehere eles
+          - somewhere else
         required: true
       message:
         description: (String) What is your message?
